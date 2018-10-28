@@ -4,10 +4,15 @@ Scholarly Network Analysis (SNA) is the study of a scientific research networks 
 # Motivation
 This analytical study is inspired by Prof. Dr. Erhard Rahm and Prof. Dr. Andreas Thor work on Citation analysis of database publications [1] and Prof. Dr. Erhard Rahm and David Aumüller work on Affiliation analysis of database publications [2].
 # Overview of the Datasets
-# Installation
+# Installation and Run
+1) Place the input dataset inside the folder TopicModeling next to file smallTestDataset.csv <br />
+2) Type the name of the input dataset inside the file named CvsFileName.txt <br />
+3) Run the program through command prompt opened in the same directory of script file <br />
+   python TopicsNum.py
 # Scientific Publication Paper
 The overview of the complete SNA carried out depicting the discovered insights on the formulated Research Questions can be found at [3].
 # Contributors
+Rutuja Shivraj Pawar, Sepideh Sadat Sobhgol
 # License
 This project is licensed under the terms of the MIT license.
 # References
