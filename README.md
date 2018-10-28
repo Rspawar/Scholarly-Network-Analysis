@@ -4,13 +4,24 @@ Scholarly Network Analysis (SNA) is the study of a scientific research networks 
 # Motivation
 This analytical study is inspired by Prof. Dr. Erhard Rahm and Prof. Dr. Andreas Thor work on Citation analysis of database publications [1] and Prof. Dr. Erhard Rahm and David Aumüller work on Affiliation analysis of database publications [2].
 # Overview of the Datasets
+Input Dataset: 
 # Installation and Run
+This Python 3.0 framework can be used for Topic Modeling and Visualization. The framework utilizes the Python library TOM (TOpic Modeling) [3] for topic extraction using Non-negative Matrix Factorization (NMF). The optimal number of topics can be set based on the output Greene metric plot for stablity analysis given the input dataset. The default is set to 10 based on the Input Dataset .csv (see output\greene.png).<br />
 1) Place the input dataset inside the folder TopicModeling next to file smallTestDataset.csv <br />
 2) Type the name of the input dataset inside the file named CvsFileName.txt <br />
 3) Run the program through command prompt opened in the same directory of script file <br />
+```
    python TopicsNum.py
+```
+# Output
+1) GlobalTopics.csv: File containing the extracted topics for all the years <br />
+2) years: Folder containing yearly files with the topics appearing in that particular year <br />
+3) years/final.csv: Detailed file generated after aggregating all the yearly files (This file is important for visualizing Topic Evolution over the years) <br />
+4) output: Folder containing output visualizations Eg. Word Distribution in a Topic <br />
+5) output/greene.png: Greene metric plot based on the input dataset and helpful to estimate the optimal number of topics <br />
+6) output/topicevolution: ubble chart for visualizing Topic Evolution over the years
 # Scientific Publication Paper
-The overview of the complete SNA carried out depicting the discovered insights on the formulated Research Questions can be found at [3].
+The overview of the complete SNA carried out depicting the discovered insights on the formulated Research Questions can be found at [4].
 # Contributors
 Rutuja Shivraj Pawar, Sepideh Sadat Sobhgol
 # License
@@ -20,5 +31,7 @@ This project is licensed under the terms of the MIT license.
 
 [2] Aumüller, D., Rahm, E.: Affiliation analysis of database publications. ACM SIGMOD Record 40(1), 26{31 (2011)
 
-[3]
+[3] Guille, A., Soriano-Morales, E.P.: Tom: A library for topic modeling and browsing. In: EGC. pp. 451{456 (2016)
+
+[4]
 
