@@ -7,9 +7,10 @@ This analytical study is inspired by Prof. Dr. Erhard Rahm and Prof. Dr. Andreas
  
 # Installation and Run
 This Python 3.0 framework can be used for Topic Modeling and Visualization. The framework utilizes the Python library TOM (TOpic Modeling) [3] for topic extraction using Non-negative Matrix Factorization (NMF). The optimal number of topics can be set based on the output Greene metric plot for stablity analysis given the input dataset. The default is set to 10 based on the Input Dataset .csv (see output\greene.png).<br />
-1) Place the input dataset inside the folder TopicModeling next to file smallTestDataset.csv <br />
-2) Type the name of the input dataset inside the file named CvsFileName.txt <br />
-3) Run the program through command prompt opened in the same directory of script file <br />
+1) Install Python library TOM (TOpic Modeling)
+2) Place the input dataset inside the folder TopicModeling next to file smallTestDataset.csv <br />
+3) Type the name of the input dataset inside the file named CvsFileName.txt <br />
+4) Run the program through command prompt opened in the same directory of script file <br />
 ```
    python TopicsNum.py
 ```
