@@ -10,5 +10,6 @@ This analytical study is inspired by Prof. Dr. Erhard Rahm and Prof. Dr. Andreas
 # License
 # References
 [1] Rahm, E., Thor, A.: Citation analysis of database publications. ACM Sigmod Record 34(4), 48{53 (2005)
-[2] Aumüller, D., Rahm, E.: Aliation analysis of database publications. ACM SIGMOD Record 40(1), 26{31 (2011)
+
+[2] Aumüller, D., Rahm, E.: Affiliation analysis of database publications. ACM SIGMOD Record 40(1), 26{31 (2011)
 
