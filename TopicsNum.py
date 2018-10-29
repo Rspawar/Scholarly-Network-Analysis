@@ -204,7 +204,7 @@ def Createplot():
     plt.title('Topic Evolution over the years')
     plt.ylabel('Topic_ID')
     plt.xlabel('Years')
-    plt.savefig('TopicEvolution over the years.png')
+    plt.savefig('topicevolution.png')
     plt.show()
 
 #--------------------------------------------------------------------------------------------------------------------------------
