@@ -4,9 +4,10 @@ Scholarly Network Analysis (SNA) is the study of a scientific research networks 
 # Motivation
 This analytical study is inspired by Prof. Dr. Erhard Rahm and Prof. Dr. Andreas Thor work on Citation analysis of database publications [1] and Prof. Dr. Erhard Rahm and David Aumüller work on Affiliation analysis of database publications [2].
 # Overview of the Input Dataset
-The bibliographic database for computer sciences DBLP [3] was identified as the main source of information. To narrow down information in DBLP specific to the database community, the node of the foundational paper of Edgar Codd on relational databases [4] was identified. Further, the papers with transitive reference relationships to the main paper node were considered (i.e., papers that cite transitively the work of Codd). This led to the formation of the database community citation network graph (Codd's World).
+The bibliographic database for computer sciences DBLP [3] was identified as the main source of information. To narrow down information in DBLP specific to the database community, the node of the foundational paper of Edgar Codd on relational databases [4] was identified. Further, the papers with transitive reference relationships to the main paper node were considered (i.e., papers that cite transitively the work of Codd). This led to the formation of the database community citation network graph (Codd's World). Based on this, further sub-graphs were constructed to form the database scholarly network. The resulting heterogeneous network consisted of four nodes, namely, (a) authors, (b) papers, (c) venues and (d) journals. The five types of relationships in the network consisted of authorship, collaboration, belonging to venue, belonging to journal and citation. Taken together, these nodes and relationships formed the database scholarly network, which was then further used for the SNA.<br />
+The complete input datasets used can be found at [5]. 
 # Installation and Run
-This Python 3.0 framework can be used for Topic Modeling and Visualization. The framework utilizes the Python library TOM (TOpic Modeling) [5] for topic extraction using Non-negative Matrix Factorization (NMF). The optimal number of topics can be set based on the output Greene metric plot for stablity analysis given the input dataset. The default is set to 10 based on the Input Dataset used (see output\greene.png).<br />
+This Python 3.0 framework can be used for Topic Modeling and Visualization. The framework utilizes the Python library TOM (TOpic Modeling) [6] for topic extraction using Non-negative Matrix Factorization (NMF). The optimal number of topics can be set based on the output Greene metric plot for stablity analysis given the input dataset. The default is set to 10 based on the Input Dataset used (see output\greene.png).<br />
 1) Install Python library TOM (TOpic Modeling)
 2) Type the name of the input dataset inside the file named CvsFileName.txt <br />
 4) Run the program through command prompt <br />
@@ -20,8 +21,8 @@ This Python 3.0 framework can be used for Topic Modeling and Visualization. The 
 4) output: Folder containing output visualizations Eg. Word Distribution in a Topic <br />
 5) output/greene.png: Greene metric plot based on the input dataset and helpful to estimate the optimal number of topics <br />
 6) topicevolution.png: Bubble chart for visualizing Topic Evolution over the years
-# Scientific Publication Paper
-The overview of the complete SNA carried out depicting the discovered insights on the formulated Research Questions can be found at [6].
+# Detailed Technical Analysis Report
+The detailed technical analysis report depicting the complete output and results can be found at [7].
 # Contributors
 Rutuja Shivraj Pawar, Sepideh Sadat Sobhgol
 # License
@@ -35,7 +36,8 @@ This project is licensed under the terms of the MIT license.
 
 [4] Codd, E.F.: A relational model of data for large shared data banks. Communications of the ACM 13(6), 377{387 (1970)
 
-[5] Guille, A., Soriano-Morales, E.P.: Tom: A library for topic modeling and browsing. In: EGC. pp. 451{456 (2016)
+[5] ftp://itidbftppublic:ErdSchwein2019@ftpiti.cs.uni-magdeburg.de/upload/protolabs/datasets/as-is/codds-world/2019-02 
 
-[6]
+[6] Guille, A., Soriano-Morales, E.P.: Tom: A library for topic modeling and browsing. In: EGC. pp. 451{456 (2016)
 
+[7]
