@@ -7,7 +7,7 @@ This analytical study is inspired by Prof. Dr. Erhard Rahm and Prof. Dr. Andreas
 The bibliographic database for computer sciences DBLP [3] was identified as the main source of information. To narrow down information in DBLP specific to the database community, the node of the foundational paper of Edgar Codd on relational databases [4] was identified. Further, the papers with transitive reference relationships to the main paper node were considered (i.e., papers that cite transitively the work of Codd). This led to the formation of the database community citation network graph (Codd's World). Based on this, further sub-graphs were constructed to form the database scholarly network. The resulting heterogeneous network consisted of four nodes, namely, (a) authors, (b) papers, (c) venues and (d) journals. The five types of relationships in the network consisted of authorship, collaboration, belonging to venue, belonging to journal and citation. Taken together, these nodes and relationships formed the database scholarly network, which was then further used for the SNA.<br />
 The complete input datasets used can be found at [5]. 
 # Installation and Run
-This Python 3.0 framework can be used for Topic Modeling and Visualization. The framework utilizes the Python library TOM (TOpic Modeling) [6] for topic extraction using Non-negative Matrix Factorization (NMF). The optimal number of topics can be set based on the output Greene metric plot for stablity analysis given the input dataset. The default is set to 10 based on the Input Dataset used (see output\greene.png).<br />
+This Python 3.0 framework can be used for Topic Modeling and Visualization. The framework utilizes the Python library TOM (TOpic Modeling) [6] for topic extraction using Non-negative Matrix Factorization (NMF). The default number of topics is set to 30 based on the Input Dataset used.<br />
 1) Install Python library TOM (TOpic Modeling)
 2) Type the name of the input dataset inside the file named CvsFileName.txt <br />
 4) Run the program through command prompt <br />
@@ -19,8 +19,7 @@ This Python 3.0 framework can be used for Topic Modeling and Visualization. The 
 2) TopicIDPaperID: File containing PaperID assigned to TopicID
 3) years: Folder containing yearly files with the topics appearing in that particular year <br />
 4) output: Folder containing output visualizations Eg. Word Distribution in a Topic <br />
-5) output/greene.png: Greene metric plot based on the input dataset and helpful to estimate the optimal number of topics <br />
-6) topicevolution.png: Bubble chart for visualizing Topic Evolution over the years
+5) topicevolution.png: Bubble chart for visualizing Topic Evolution over the years
 # Detailed Technical Analysis Report
 The detailed technical analysis report depicting the complete output and results can be found at [7].
 # Contributors
@@ -36,7 +35,7 @@ This project is licensed under the terms of the MIT license.
 
 [4] Codd, E.F.: A relational model of data for large shared data banks. Communications of the ACM 13(6), 377{387 (1970)
 
-[5] [](ftp://itidbftppublic:ErdSchwein2019@ftpiti.cs.uni-magdeburg.de/upload/protolabs/datasets/as-is/codds-world/2019-02)
+[5] ftp://itidbftppublic:ErdSchwein2019@ftpiti.cs.uni-magdeburg.de/upload/protolabs/datasets/as-is/codds-world/2019-02
 
 [6] Guille, A., Soriano-Morales, E.P.: Tom: A library for topic modeling and browsing. In: EGC. pp. 451{456 (2016)
 
