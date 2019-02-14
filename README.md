@@ -39,4 +39,4 @@ This project is licensed under the terms of the MIT license.
 
 [6] Guille, A., Soriano-Morales, E.P.: Tom: A library for topic modeling and browsing. In: EGC. pp. 451{456 (2016)
 
-[7]
+[7] https://github.com/Rspawar/Scholarly-Network-Analysis/blob/master/Technical%20Analysis%20Report.pdf
