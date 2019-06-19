@@ -35,7 +35,7 @@ This project is licensed under the terms of the MIT license.
 
 [4] Codd, E.F.: A relational model of data for large shared data banks. Communications of the ACM 13(6), 377{387 (1970)
 
-[5] ftp://itidbftppublic:ErdSchwein2019@ftpiti.cs.uni-magdeburg.de/upload/protolabs/datasets/as-is/codds-world/2019-02
+[5] ftp://itidbftppublic:dbse0Run41rP@ftpiti.cs.uni-magdeburg.de/upload/protolabs/datasets/as-is/codds-world/2019-02
 
 [6] Guille, A., Soriano-Morales, E.P.: Tom: A library for topic modeling and browsing. In: EGC. pp. 451{456 (2016)
 
